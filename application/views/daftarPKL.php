@@ -20,7 +20,7 @@
                                             </div>
                                             <!-- <span>Wakakaka</span> -->
                                         </div>
-                                        <a href="formDaftarPKL.html" class="btn btn-primary mt-3 float-right">Daftar
+                                        <a href="<?php echo base_url('welcome/formDaftarPKL') ?>" class="btn btn-primary mt-3 float-right">Daftar
                                             PKL</a>
                                     </div>
                                 </div>

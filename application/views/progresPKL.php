@@ -20,7 +20,7 @@
                                             </div>
                                             <!-- <span>Wakakaka</span> -->
                                         </div>
-                                        <a href="logbookPKL.html" class="btn btn-primary mt-3 float-right">Isi
+                                        <a href="<?php echo base_url('welcome/formDaftarPKL') ?>" class="btn btn-primary mt-3 float-right">Isi
                                             Logbook</a>
                                     </div>
                                 </div>

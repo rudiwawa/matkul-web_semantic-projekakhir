@@ -21,7 +21,7 @@
                                             </div>
                                             <!-- <span>Wakakaka</span> -->
                                         </div>
-                                        <a href="formDaftarSemhas.html"
+                                        <a href="<?php echo base_url('welcome/formDaftarSemhas') ?>"
                                             class="btn btn-primary mt-3 float-right">Lengkapi
                                             Laporan</a>
                                     </div>
