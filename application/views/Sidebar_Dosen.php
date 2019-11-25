@@ -48,7 +48,7 @@ $loc = base_url() . '/assets/';
         <!-- Add icons to the links using the .nav-icon class
            with font-awesome or any other icon font library -->
         <li class="nav-item">
-          <a href="<?= base_url('welcome/pkl_lihat_kelompok') ?>" class="nav-link">
+          <a href="<?= base_url('Dosen/pkl_lihat_kelompok') ?>" class="nav-link">
             <i class="nav-icon far fa-edit"></i>
             <p>
               Lihat Kelompok
@@ -56,7 +56,7 @@ $loc = base_url() . '/assets/';
           </a>
         </li>
         <li class="nav-item">
-          <a href="<?= base_url('welcome/pkl_lihat_dosbing') ?>" class="nav-link">
+          <a href="<?= base_url('Dosen/pkl_lihat_dosbing') ?>" class="nav-link">
             <i class="nav-icon fas fa-list"></i>
             <p>
               Pilih Dosbing

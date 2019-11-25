@@ -48,7 +48,7 @@ $loc = base_url() . '/assets/';
         <!-- Add icons to the links using the .nav-icon class
            with font-awesome or any other icon font library -->
         <li class="nav-item">
-          <a href="<?= base_url('welcome/daftarPKL') ?>" class="nav-link">
+          <a href="<?= base_url('Mahasiswa/daftarPKL') ?>" class="nav-link">
             <i class="nav-icon far fa-edit"></i>
             <p>
               Pendaftaran PKL
@@ -56,7 +56,7 @@ $loc = base_url() . '/assets/';
           </a>
         </li>
         <li class="nav-item">
-          <a href="<?= base_url('welcome/progresPKL') ?>" class="nav-link">
+          <a href="<?= base_url('Mahasiswa/progresPKL') ?>" class="nav-link">
             <i class="nav-icon fas fa-list"></i>
             <p>
               Pelaksanaan PKL
@@ -64,7 +64,7 @@ $loc = base_url() . '/assets/';
           </a>
         </li>
         <li class="nav-item">
-          <a href="<?= base_url('welcome/laporanPKL') ?>" class="nav-link">
+          <a href="<?= base_url('Mahasiswa/laporanPKL') ?>" class="nav-link">
             <i class="nav-icon far fa-file"></i>
             <p>
               Pelaporan PKL
@@ -72,7 +72,7 @@ $loc = base_url() . '/assets/';
           </a>
         </li>
         <li class="nav-item">
-          <a href="<?= base_url('welcome/profil') ?>" class="nav-link">
+          <a href="<?= base_url('Mahasiswa/profil') ?>" class="nav-link">
             <i class="nav-icon far fa-file"></i>
             <p>
             profil

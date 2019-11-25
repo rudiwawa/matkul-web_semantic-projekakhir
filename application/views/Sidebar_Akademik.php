@@ -48,7 +48,7 @@ $loc = base_url() . '/assets/';
         <!-- Add icons to the links using the .nav-icon class
            with font-awesome or any other icon font library -->
         <li class="nav-item">
-          <a href="<?= base_url('welcome/ValidasiPembimbing') ?>" class="nav-link">
+          <a href="<?= base_url('Akademik/ValidasiPembimbing') ?>" class="nav-link">
             <i class="nav-icon far fa-edit"></i>
             <p>
               Validasi Pembimbing
@@ -56,7 +56,7 @@ $loc = base_url() . '/assets/';
           </a>
         </li>
         <li class="nav-item">
-          <a href="<?= base_url('welcome/ValidasiSemhasPkl') ?>" class="nav-link">
+          <a href="<?= base_url('Akademik/ValidasiSemhasPkl') ?>" class="nav-link">
             <i class="nav-icon fas fa-list"></i>
             <p>
             Validasi Semhas Pkl

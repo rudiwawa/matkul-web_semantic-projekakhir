@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Welcome extends CI_Controller
+class Mahasiswa extends CI_Controller
 {
 
     /**
@@ -19,10 +19,17 @@ class Welcome extends CI_Controller
      * map to /index.php/welcome/<method_name>
      * @see https://codeigniter.com/user_guide/general/urls.html
      */
+    public function __construct()
+    {
+        parent::__construct();
+       
+    }
+    protected  $sidebar_mahasiswa = 'Sidebar_mahasiswa';
+
     public function index()
     {
         $data = array(
-            'sidebar'=>'Sidebar_mahasiswa',
+            'sidebar' => $this->sidebar_mahasiswa ,
             'content' => 'Login',
         );
         $this->load->view('index', $data);
@@ -30,7 +37,7 @@ class Welcome extends CI_Controller
     public function dasboard()
     {
         $data = array(
-            'sidebar'=>'Sidebar_mahasiswa',
+            'sidebar' => $this->sidebar_mahasiswa,
             'content' => 'Dashboard',
         );
         $this->load->view('index', $data);
@@ -38,7 +45,7 @@ class Welcome extends CI_Controller
     public function daftarPKL()
     {
         $data = array(
-            'sidebar'=>'Sidebar_mahasiswa',
+            'sidebar' => $this->sidebar_mahasiswa,
             'content' => 'DaftarPKL',
         );
         $this->load->view('index', $data);
@@ -46,7 +53,7 @@ class Welcome extends CI_Controller
     public function progresPKL()
     {
         $data = array(
-            'sidebar'=>'Sidebar_mahasiswa',
+            'sidebar' => $this->sidebar_mahasiswa,
             'content' => 'ProgresPKL',
         );
         $this->load->view('index', $data);
@@ -54,16 +61,15 @@ class Welcome extends CI_Controller
     public function laporanPKL()
     {
         $data = array(
-            'sidebar'=>'Sidebar_mahasiswa',
+            'sidebar' => $this->sidebar_mahasiswa,
             'content' => 'LaporanPKL',
         );
         $this->load->view('index', $data);
     }
-
     public function formDaftarPKL()
     {
         $data = array(
-            'sidebar'=>'Sidebar_mahasiswa',
+            'sidebar' => $this->sidebar_mahasiswa,
             'content' => 'formDaftarPKL',
         );
         $this->load->view('index', $data);
@@ -71,7 +77,7 @@ class Welcome extends CI_Controller
     public function formDaftarSemhas()
     {
         $data = array(
-            'sidebar'=>'Sidebar_mahasiswa',
+            'sidebar' => $this->sidebar_mahasiswa,
             'content' => 'formDaftarSemhas',
         );
         $this->load->view('index', $data);
@@ -79,7 +85,7 @@ class Welcome extends CI_Controller
     public function formLogbook()
     {
         $data = array(
-            'sidebar'=>'Sidebar_mahasiswa',
+            'sidebar' => $this->sidebar_mahasiswa,
             'content' => 'formLogbook',
         );
         $this->load->view('index', $data);
@@ -87,48 +93,15 @@ class Welcome extends CI_Controller
     public function logbookPKL()
     {
         $data = array(
-            'sidebar'=>'Sidebar_mahasiswa',
+            'sidebar' => $this->sidebar_mahasiswa,
             'content' => 'logbookPKL',
-        );
-        $this->load->view('index', $data);
-    }
-    public function pkl_lihat_kelompok()
-    {
-        $data = array(
-            'sidebar'=>'Sidebar_dosen',
-            'content' => 'pkl_lihat_kelompok',
-        );
-        $this->load->view('index', $data);
-    }
-
-    public function pkl_lihat_dosbing()
-    {
-        $data = array(
-            'sidebar'=>'Sidebar_dosen',
-            'content' => 'pkl_pilih_dosbing',
-        );
-        $this->load->view('index', $data);
-    }
-    public function ValidasiPembimbing()
-    {
-        $data = array(
-            'sidebar'=>'Sidebar_akademik',
-            'content' => 'ValidasiPembimbing',
-        );
-        $this->load->view('index', $data);
-    }
-    public function ValidasiSemhasPkl()
-    {
-        $data = array(
-            'sidebar'=>'Sidebar_akademik',
-            'content' => 'ValidasiSemhasPkl',
         );
         $this->load->view('index', $data);
     }
     public function profil()
     {
         $data = array(
-            'sidebar'=>'Sidebar_mahasiswa',
+            'sidebar' => $this->sidebar_mahasiswa,
             'content' => 'profil',
         );
         $this->load->view('index', $data);

@@ -8,7 +8,7 @@
       <div class="card-body login-card-body">
         <p class="login-box-msg">Masukkan akun SIAM / SIADO</p>
 
-        <form action="<?php echo base_url('welcome/dasboard') ?>" method="post">
+        <form action="<?php echo base_url('Mahasiswa/dasboard') ?>" method="post">
           <div class="input-group mb-3">
             <input type="text" class="form-control" placeholder="Username">
             <div class="input-group-append">
