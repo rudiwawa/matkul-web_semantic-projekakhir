@@ -7,6 +7,7 @@ class Dosen extends CI_Controller
     {
         parent::__construct();
         $this->load->model('M_dosen');
+        $this->load->helper('form');
         $this->date = new DateTime();
     }
 
@@ -32,12 +33,47 @@ class Dosen extends CI_Controller
 
     public function pkl_lihat_dosbing()
     {
-        $res = $this->M_dosen->get_lihat_kelompok();
+        $res = $this->M_dosen->pkl_lihat_dosbing();
         $res = $this->groub_by_kelompok('kelompok', $res);
+        // var_dump($res);
         $data = array(
             'data' => $res,
             'sidebar' => 'Sidebar_dosen',
             'content' => 'pkl_pilih_dosbing',
+        );
+        $this->load->view('index', $data);
+    }
+    public function pkl_lihat_dosbing_action()
+    {
+        $res = $this->M_dosen->getAll_dosen_pembimbing();
+        // $res = $this->groub_by_kelompok('kelompok', $res);
+        // var_dump($res);
+        $data = array(
+            'data' => $res,
+            'sidebar' => 'Sidebar_dosen',
+            'content' => 'pkl_pilih_dosbing_action',
+        );
+        $this->load->view('index', $data);
+    }
+    public function pkl_lihat_dosbing_save()
+    {
+        $res = $this->M_dosen->getAll_dosen_pembimbing();
+
+        $data = array(
+            'data' => $res,
+            'sidebar' => 'Sidebar_dosen',
+            'content' => 'pkl_pilih_dosbing_action',
+        );
+        $this->load->view('index', $data);
+    }
+    public function input_nilai()
+    {
+        // $res = $this->M_dosen->get_lihat_kelompok();
+        // $res = $this->groub_by_kelompok('kelompok', $res);
+        $data = array(
+            // 'data' => $res,
+            'sidebar' => 'Sidebar_dosen',
+            'content' => 'input_nilai',
         );
         $this->load->view('index', $data);
     }

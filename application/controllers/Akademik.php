@@ -27,6 +27,11 @@ class Akademik extends CI_Controller
         );
         $this->load->view('index', $data);
     }
+
+    function ValidasiPembimbingAction()
+    {
+        
+    }
     public function ValidasiSemhasPkl()
     {
         $data = array(

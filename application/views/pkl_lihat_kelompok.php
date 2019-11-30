@@ -76,12 +76,12 @@
                 <span class="badge badge-success"><?=$value['data']['status']['value']?></span>
               </td>
               <td class="project-actions text-right">
-                <a class="btn btn-primary btn-sm" href="input_nilai.html">
-                  <i class="fas fa-folder">
+                <a class="btn btn-primary btn-sm" href="<?= base_url('Dosen/input_nilai') ?>">
+                  <!-- <i class="fas fa-folder"> -->
                   </i>
-                  View
+                  Beri Nilai
                 </a>
-                <a class="btn btn-info btn-sm" href="pkl_pilih_dosbing.html">
+                <!-- <a class="btn btn-info btn-sm" href="pkl_pilih_dosbing.html">
                   <i class="fas fa-pencil-alt">
                   </i>
                   Edit
@@ -90,7 +90,7 @@
                   <i class="fas fa-trash">
                   </i>
                   Delete
-                </a>
+                </a> -->
               </td>
             </tr>
           <?php } ?>
