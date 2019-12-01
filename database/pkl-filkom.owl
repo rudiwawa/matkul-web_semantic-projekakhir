@@ -1,0 +1,729 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#"
+     xml:base="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom"
+     xmlns:ub="http://www.semanticweb.org/kharis/ontologies/2019/10/untitled-ontology-2"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:filkom="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom"
+     xmlns:pkl-filkom="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#bekerja -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#bekerja"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#konsultasi -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#konsultasi"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#melakukan -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#melakukan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#membimbing -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#membimbing"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#memiliki -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#memiliki"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#mempunyai -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#mempunyai"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#menguji -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#menguji"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#terdiri_dari -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#terdiri_dari"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#tersusun_atas -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#tersusun_atas"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#angkatan -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#angkatan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#file -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#file"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#judul -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#judul"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#jurusan -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#jurusan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#keminatan -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#keminatan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#kontak -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#kontak"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#lokasi -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#lokasi"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#lokasi_kegiatan -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#lokasi_kegiatan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#nama -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#nama"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#nama_dosen -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#nama_dosen"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#nama_kegiatan -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#nama_kegiatan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#nama_kelompok -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#nama_kelompok"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#nama_tempat -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#nama_tempat"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#nilai_kelompok -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#nilai_kelompok"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#nim -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#nim"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#password -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#password"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#pendidikan -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#pendidikan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#prodi -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#prodi"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#ruang_semhas -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#ruang_semhas"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#skills -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#skills">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#status_kegiatan -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#status_kegiatan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#status_kelompok -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#status_kelompok"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#username -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#username"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#waktu_kegiatan -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#waktu_kegiatan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#waktu_upload -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#waktu_upload"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Bimbingan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Bimbingan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Kegiatan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Dokumen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Dokumen"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Dosen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Dosen"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Form -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Form">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Dokumen"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Kegiatan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Kegiatan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Kelompok -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Kelompok"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Laporan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Laporan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Dokumen"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Mahasiswa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Mahasiswa"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Pembimbing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Pembimbing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Dosen"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Penguji -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Penguji">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Dosen"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Pkl -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Pkl">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Kegiatan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Profil_PKL -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Profil_PKL"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Semhas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Semhas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Kegiatan"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Imam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Imam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Penguji"/>
+        <menguji rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#kelompok3"/>
+        <nama_dosen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Imam Cholissudin</nama_dosen>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#arwan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#arwan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Pembimbing"/>
+        <membimbing rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#kelompok1"/>
+        <nama_dosen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Achmad Arwan</nama_dosen>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#bimbingan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#bimbingan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Bimbingan"/>
+        <nama_kegiatan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bimbingan PKL</nama_kegiatan>
+        <status_kegiatan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">valid</status_kegiatan>
+        <waktu_kegiatan rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-20T10:00:00</waktu_kegiatan>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#bimbingan2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#bimbingan2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Bimbingan"/>
+        <nama_kegiatan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bimbingan Pkl</nama_kegiatan>
+        <status_kegiatan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non valid</status_kegiatan>
+        <waktu_kegiatan rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-20T10:00:00</waktu_kegiatan>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#danang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#danang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Mahasiswa"/>
+        <nama rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Danang Trisdiana Putra</nama>
+        <nim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">165150207111058</nim>
+        <password rdf:datatype="http://www.w3.org/2001/XMLSchema#string">123</password>
+        <username rdf:datatype="http://www.w3.org/2001/XMLSchema#string">danang123</username>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#denny -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#denny">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Pembimbing"/>
+        <nama_dosen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Denny Sagita Rusdianto</nama_dosen>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#dicky -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#dicky">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Mahasiswa"/>
+        <nama rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dicky Wahyudi</nama>
+        <nim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">165150200111005</nim>
+        <password rdf:datatype="http://www.w3.org/2001/XMLSchema#string">123</password>
+        <username rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dicky123</username>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#dinda -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#dinda">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Mahasiswa"/>
+        <nama rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rizky Adinda</nama>
+        <nim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">165150200111115</nim>
+        <password rdf:datatype="http://www.w3.org/2001/XMLSchema#string">123</password>
+        <username rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dinda</username>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#dokumen1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#dokumen1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Dokumen"/>
+        <tersusun_atas rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#form1"/>
+        <tersusun_atas rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#laporan1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#dokumen2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#dokumen2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Dokumen"/>
+        <tersusun_atas rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#form2"/>
+        <tersusun_atas rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#laporan2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#dokumen3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#dokumen3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Dokumen"/>
+        <tersusun_atas rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#form3"/>
+        <tersusun_atas rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#laporan3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#fajar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#fajar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Penguji"/>
+        <menguji rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#kelompok1"/>
+        <nama_dosen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fajar Pradana</nama_dosen>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#form1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#form1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Form"/>
+        <waktu_upload rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-21T10:00:00</waktu_upload>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#form2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#form2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Form"/>
+        <waktu_upload rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-21T10:00:00</waktu_upload>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#form3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#form3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Form"/>
+        <waktu_upload rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-21T10:00:00</waktu_upload>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#hanifah -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#hanifah">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Mahasiswa"/>
+        <nama rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hanifah Khoirunnisa&apos;</nama>
+        <nim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">165150200111115</nim>
+        <password rdf:datatype="http://www.w3.org/2001/XMLSchema#string">123</password>
+        <username rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hanifah123</username>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#kelompok1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#kelompok1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Kelompok"/>
+        <bekerja rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#pkl"/>
+        <konsultasi rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#bimbingan"/>
+        <melakukan rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#semhas"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#dokumen1"/>
+        <mempunyai rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#profil1"/>
+        <terdiri_dari rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#kharis"/>
+        <keminatan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rekayasa Perangkat Lunak</keminatan>
+        <nama_kelompok rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kelompok 1</nama_kelompok>
+        <nilai_kelompok rdf:datatype="http://www.w3.org/2001/XMLSchema#int">80</nilai_kelompok>
+        <status_kelompok rdf:datatype="http://www.w3.org/2001/XMLSchema#string">valid</status_kelompok>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#kelompok2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#kelompok2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Kelompok"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#dokumen2"/>
+        <mempunyai rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#profil2"/>
+        <terdiri_dari rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#danang"/>
+        <terdiri_dari rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#dicky"/>
+        <terdiri_dari rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#hanifah"/>
+        <keminatan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mobile dan Game</keminatan>
+        <nama_kelompok rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kelompok 2</nama_kelompok>
+        <nilai_kelompok rdf:datatype="http://www.w3.org/2001/XMLSchema#int">85</nilai_kelompok>
+        <status_kelompok rdf:datatype="http://www.w3.org/2001/XMLSchema#string">valid</status_kelompok>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#kelompok3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#kelompok3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Kelompok"/>
+        <bekerja rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#pkl2"/>
+        <konsultasi rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#bimbingan2"/>
+        <melakukan rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#semhas2"/>
+        <memiliki rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#dokumen3"/>
+        <mempunyai rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#profil3"/>
+        <terdiri_dari rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#dinda"/>
+        <keminatan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">komputasi cerdas</keminatan>
+        <nama_kelompok rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kelompok 3</nama_kelompok>
+        <status_kelompok rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non valid</status_kelompok>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#kharis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#kharis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Mahasiswa"/>
+        <nama rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Misbakhul Kharis</nama>
+        <nim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">165150201111021</nim>
+        <password rdf:datatype="http://www.w3.org/2001/XMLSchema#string">123</password>
+        <username rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kharismisbakhul</username>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#komang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#komang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Pembimbing"/>
+        <membimbing rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#kelompok2"/>
+        <nama_dosen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Komang Candra Brata</nama_dosen>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#laporan1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#laporan1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Laporan"/>
+        <judul rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pengembangan Aplikasi Sistem Ujian Berbasis Web</judul>
+        <waktu_upload rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-22T10:00:00</waktu_upload>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#laporan2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#laporan2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Laporan"/>
+        <judul rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pengembangan Aplikasi Monitoring APBD</judul>
+        <waktu_upload rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-22T10:00:00</waktu_upload>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#laporan3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#laporan3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Laporan"/>
+        <judul rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Klasifikasi mahasiswa berdasarkan jam tidur menggunakan metode naive bayes</judul>
+        <waktu_upload rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-22T10:00:00</waktu_upload>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#pkl -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#pkl">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Pkl"/>
+        <nama_kegiatan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PKL</nama_kegiatan>
+        <status_kegiatan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">valid</status_kegiatan>
+        <waktu_kegiatan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-09-20T10:00:00</waktu_kegiatan>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#pkl2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#pkl2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Pkl"/>
+        <nama_kegiatan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PKL</nama_kegiatan>
+        <status_kegiatan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non valid</status_kegiatan>
+        <waktu_kegiatan rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-20T10:00:00</waktu_kegiatan>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#profil1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#profil1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Profil_PKL"/>
+        <kontak rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0322-321-211</kontak>
+        <lokasi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jl. Veteran No. 12</lokasi>
+        <nama_tempat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fakultas Ekonomi dan Bisnis Universitas Brawijaya</nama_tempat>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#profil2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#profil2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Profil_PKL"/>
+        <kontak rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0322-122-333</kontak>
+        <lokasi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jl. Antara No. 22</lokasi>
+        <nama_tempat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balai Kota Batu</nama_tempat>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#profil3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#profil3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Profil_PKL"/>
+        <kontak rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0928-192902</kontak>
+        <lokasi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jl.bungur selatan malang</lokasi>
+        <nama_tempat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOKEPENISA</nama_tempat>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#randy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#randy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Pembimbing"/>
+        <membimbing rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#kelompok3"/>
+        <nama_dosen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Randy Cahya Wihandika</nama_dosen>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#semhas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#semhas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Semhas"/>
+        <nama_kegiatan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seminar Hasil</nama_kegiatan>
+        <ruang_semhas rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A1.2</ruang_semhas>
+        <status_kegiatan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">valid</status_kegiatan>
+        <waktu_kegiatan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-12-20T10:00:00</waktu_kegiatan>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#semhas2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#semhas2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Semhas"/>
+        <nama_kegiatan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seminar Hasil</nama_kegiatan>
+        <ruang_semhas rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F9.4</ruang_semhas>
+        <status_kegiatan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non valid</status_kegiatan>
+        <waktu_kegiatan rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-20T10:00:00</waktu_kegiatan>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#tri_afirianto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#tri_afirianto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#Penguji"/>
+        <menguji rdf:resource="http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#kelompok2"/>
+        <nama_dosen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tri Afirianto</nama_dosen>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

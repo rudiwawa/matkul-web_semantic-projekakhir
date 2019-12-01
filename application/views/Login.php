@@ -1,5 +1,5 @@
 <div class="hold-transition login-page">
-    <div class="login-box">
+  <div class="login-box">
     <div class="login-logo">
       <a href="index.html"><b>FILKOM</b> PKL</a>
     </div>
