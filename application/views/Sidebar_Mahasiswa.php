@@ -38,7 +38,7 @@ $loc = base_url() . '/assets/';
         <img src="<?= $loc ?>dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
       </div>
       <div class="info">
-        <a href="profil.html" class="d-block">Johny Kurniawan</a>
+        <a href="profil.html" class="d-block"><?php echo $this->session->userdata('name') ?></a>
       </div>
     </div>
 
@@ -71,11 +71,12 @@ $loc = base_url() . '/assets/';
             </p>
           </a>
         </li>
+        
         <li class="nav-item">
-          <a href="<?= base_url('Mahasiswa/profil') ?>" class="nav-link">
+          <a href="<?= base_url('Mahasiswa/logout') ?>" class="nav-link">
             <i class="nav-icon far fa-file"></i>
             <p>
-            profil
+            Logout
             </p>
           </a>
         </li>

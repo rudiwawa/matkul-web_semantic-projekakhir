@@ -34,6 +34,24 @@ class Mahasiswa extends CI_Controller
         );
         $this->load->view('index', $data);
     }
+
+    public function login()
+    {
+        $username = $_POST['username'];
+        $password = $_POST['password'];
+        $this->load->model('M_mahasiswa');
+        $this->M_mahasiswa->login_mahasiswa($username, $password);
+    }
+
+    public function logout()
+    {
+        
+        $this->session->unset_userdata('uname');
+        $this->session->unset_userdata('name');
+        $this->session->unset_userdata('status');
+        redirect('Mahasiswa/index');
+    }
+
     public function dasboard()
     {
         $data = array(
