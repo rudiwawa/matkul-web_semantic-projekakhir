@@ -75,7 +75,7 @@
                 </ul>
               </td>
               <td class="project_progress">
-                <?= substr($kelompok[0]['data']['dosen']['value'], 64); ?>
+                <?= $kelompok[0]['data']['nama_dosen']['value']; ?>
               </td>
               <td class="project_progress">
                 <a class="btn btn-primary btn-sm" href="<?= base_url('Dosen/pkl_lihat_dosbing_action/'.substr($kelompok['kelompok'], 64)) ?>">

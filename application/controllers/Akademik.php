@@ -17,11 +17,14 @@ class Akademik extends CI_Controller
     }
     public function ValidasiPembimbing()
     {
-        $res = $this->M_akademik->get_ValidasiPembimbing();
-        $res = $this->groub_by_kelompok('kelompok', $res);
-        // var_dump ($res);
+        $valid = $this->M_akademik->get_ValidasiPembimbing("valid");
+        $non_valid = $this->M_akademik->get_ValidasiPembimbing("non valid");
+        $valid = $this->groub_by_kelompok('kelompok', $valid);
+        $non_valid = $this->groub_by_kelompok('kelompok', $non_valid);
+        // var_dump ($valid);
         $data = array(
-            'data' => $res,
+            'valid' => $valid,
+            'non_valid' => $non_valid,
             'sidebar'=>'Sidebar_akademik',
             'content' => 'ValidasiPembimbing',
         );
@@ -34,7 +37,13 @@ class Akademik extends CI_Controller
     }
     public function ValidasiSemhasPkl()
     {
+        $valid = $this->M_akademik->get_ValidasiPembimbing("valid");
+        $non_valid = $this->M_akademik->get_ValidasiPembimbing("non valid");
+        $valid = $this->groub_by_kelompok('kelompok', $valid);
+        $non_valid = $this->groub_by_kelompok('kelompok', $non_valid);
         $data = array(
+            'valid' => $valid,
+            'non_valid' => $non_valid,
             'sidebar'=>'Sidebar_akademik',
             'content' => 'ValidasiSemhasPkl',
         );

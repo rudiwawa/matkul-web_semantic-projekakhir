@@ -34,7 +34,7 @@
               <?php
                 // var_dump($data);
                 $trim = "http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#";
-                foreach ($data as $key => $kelompok) {
+                foreach ($non_valid as $key => $kelompok) {
                   // echo $key;
                   ?>
                   <tr>
@@ -52,7 +52,7 @@
                     </td>
                     <td><?= ($kelompok[0]['data']['tempat_pkl']['value']); ?></td>
                     <td><span class="tag tag-success"><?= ($kelompok[0]['data']['minat']['value']); ?></span></td>
-                    <td><?= substr($kelompok[0]['data']['dosen']['value'],64); ?></td>
+                    <td><?= $kelompok[0]['data']['nama_dosen']['value']; ?></td>
                     <td><a href="#" class="btn btn-success btn-lg">Validasi</a></td>
                   </tr>
                 <?php
@@ -108,7 +108,7 @@
               <?php
                 // var_dump($data);
                 $trim = "http://www.semanticweb.org/kharis/ontologies/2019/10/pkl-filkom#";
-                foreach ($data as $key => $kelompok) {
+                foreach ($valid as $key => $kelompok) {
                   // echo $key;
                   ?>
                   <tr>
@@ -126,8 +126,8 @@
                     </td>
                     <td><?= ($kelompok[0]['data']['tempat_pkl']['value']); ?></td>
                     <td><span class="tag tag-success"><?= ($kelompok[0]['data']['minat']['value']); ?></span></td>
-                    <td><?= substr($kelompok[0]['data']['dosen']['value'],64); ?></td>
-                    <td><a href="#" class="btn btn-success btn-lg">Validasi</a></td>
+                    <td><?= $kelompok[0]['data']['nama_dosen']['value'];  ?></td>
+                    <td><a href="#" class="fas fa-check-circle mx-auto"></a></td>
                   </tr>
                 <?php
                 }
